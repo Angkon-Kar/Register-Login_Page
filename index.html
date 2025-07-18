@@ -19,7 +19,15 @@
             </button>
         </div>
 
-        
+        <form id="loginForm" class="form" onsubmit="event.preventDefault(); loginUser();">
+            <h2>Login</h2>
+        <label for="loginEmail">Email</label>
+        <input type="email" id="loginEmail" placeholder="Enter your email" autocomplete="email" />
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" placeholder="Enter your password" autocomplete="current-password" />
+        <button type="submit">Login</button>
+        <p id="loginMessage" class="message"></p>
+        </form>
     </div>
 </body>
 </html>
