@@ -40,12 +40,13 @@ A simple, responsive Register and Login Page built using **HTML**, **CSS**, and 
 
 
 📁 File Structure
-
+```
 Register-Login-Page
 │
 ├── index.html         # Main HTML structure
 ├── style.css          # Styling for the form and layout
 └── script.js          # JS for interactivity and toggles
+```
 
 🙌 Acknowledgments
 Inspired by modern form UI/UX designs
